@@ -1,3 +1,6 @@
+// Punto de entrada del programa
+// inicializa subsistemas y ejecuta el bucle principal
+
 #include <iostream>
 #include "Game.h"
 #include "spdlog/spdlog.h"

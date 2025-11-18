@@ -1,3 +1,6 @@
+// Implementación del gestor de entidades, sistemas y eventos
+// coordina actualizaciones y el flujo del juego
+
 #include "World.h"
 #include <algorithm> // Para std::remove_if
 #include "spdlog/spdlog.h"

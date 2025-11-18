@@ -1,3 +1,6 @@
+// Implementación de aplicación de daño y comprobación de muerte
+// dispara eventos relacionados con la salud
+
 #include "DamageSystem.h"
 #include "World.h"
 #include "PlayerComponent.h"

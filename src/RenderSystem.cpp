@@ -1,3 +1,6 @@
+// Implementación del renderizado y gestión de recursos gráficos
+// dibuja entidades, UI y texto
+
 #include "RenderSystem.h"
 #include "World.h"
 #include "TransformComponent.h"

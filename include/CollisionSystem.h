@@ -1,3 +1,6 @@
+// Sistema que detecta y resuelve colisiones entre entidades
+// notifica resultados y aplica respuestas
+
 #pragma once
 #include "ISystem.h"
 #include <SDL2/SDL.h>

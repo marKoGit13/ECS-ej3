@@ -1,3 +1,6 @@
+// Interfaz base para todos los componentes de entidad
+// define la API común para componentes
+
 #pragma once
 #include <SDL2/SDL.h> // Incluimos SDL aquí para que esté disponible en todos los componentes
 

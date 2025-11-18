@@ -1,3 +1,6 @@
+// Sistema encargado del renderizado de entidades y UI
+// gestiona texturas, fuentes y presentación en pantalla
+
 #pragma once
 #include "ISystem.h"
 #include <SDL2/SDL.h>

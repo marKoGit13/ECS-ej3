@@ -1,3 +1,6 @@
+// Definición de eventos del mundo y su manejo básico
+// usado para comunicar sistemas y entidades
+
 #pragma once
 #include <memory> // Para std::unique_ptr
 

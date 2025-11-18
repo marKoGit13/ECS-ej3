@@ -1,3 +1,6 @@
+// Gestión principal del juego: ventana, renderer y recursos
+// controla inicialización y bucle principal
+
 #pragma once
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>

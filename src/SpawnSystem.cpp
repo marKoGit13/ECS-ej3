@@ -1,3 +1,6 @@
+// Implementación del sistema de spawn
+// lee configuración y crea entidades según reglas
+
 #include "SpawnSystem.h"
 #include "World.h"
 #include "TransformComponent.h"

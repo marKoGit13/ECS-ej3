@@ -1,3 +1,6 @@
+// Sistema encargado de generar entidades (enemigos, items)
+// controla timing y condiciones de spawn
+
 #pragma once
 #include "ISystem.h"
 #include <SDL2/SDL.h>

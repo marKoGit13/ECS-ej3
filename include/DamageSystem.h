@@ -1,3 +1,6 @@
+// Sistema responsable de aplicar daño y actualizar salud
+// procesa eventos de daño y muerte
+
 #pragma once
 #include "ISystem.h"
 #include <memory>

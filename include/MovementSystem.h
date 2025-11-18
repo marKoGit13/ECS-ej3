@@ -1,3 +1,6 @@
+// Sistema que actualiza posiciones según velocidad y entrada
+// maneja lógica de movimiento de entidades
+
 #pragma once
 #include "ISystem.h"
 

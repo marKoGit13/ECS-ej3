@@ -1,3 +1,6 @@
+// Componente que guarda información de sprite y textura
+// usado por el sistema de render para dibujar entidades
+
 #pragma once
 #include "Component.h"
 #include <string>

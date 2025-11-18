@@ -1,3 +1,6 @@
+// Componente para posición, rotación y escala
+// provee vectores y utilidades de transformación
+
 #pragma once
 #include "Component.h"
 #include <glm/vec2.hpp> // Usamos GLM para vectores 2D

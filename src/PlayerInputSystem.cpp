@@ -1,3 +1,6 @@
+// Implementación del mapeo de entrada a acciones
+// procesa eventos SDL y los convierte en comandos
+
 #include "PlayerInputSystem.h"
 #include "World.h"
 #include "TransformComponent.h"

@@ -1,3 +1,6 @@
+// Implementación de la lógica de salud
+// aplica daño, curación y chequeos de muerte
+
 #include "HealthComponent.h"
 
 HealthComponent::HealthComponent(int h)

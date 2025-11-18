@@ -1,3 +1,6 @@
+// Implementación del movimiento de entidades
+// actualiza transformaciones por velocidad/entrada
+
 #include "MovementSystem.h"
 #include "World.h"
 #include "TransformComponent.h"

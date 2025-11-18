@@ -1,3 +1,6 @@
+// Captura y procesa la entrada del jugador
+// traduce eventos de entrada en acciones de juego
+
 #pragma once
 #include "ISystem.h"
 #include <glm/vec2.hpp>

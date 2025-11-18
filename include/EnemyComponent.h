@@ -1,3 +1,6 @@
+// Marca una entidad como enemigo y guarda sus parámetros
+// usado por sistemas de spawn y comportamiento
+
 #pragma once
 #include "Component.h"
 

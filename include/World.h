@@ -1,3 +1,6 @@
+// Contenedor que administra entidades, sistemas y eventos
+// coordina el flujo del juego y el procesamiento
+
 #pragma once
 #include <vector>
 #include <memory>       // Para std::unique_ptr

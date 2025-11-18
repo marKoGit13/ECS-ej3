@@ -1,3 +1,6 @@
+// Representa una entidad y gestiona sus componentes
+// facilita añadir, buscar y eliminar componentes
+
 #pragma once
 #include <vector>
 #include <memory>       // Para std::unique_ptr y std::make_unique

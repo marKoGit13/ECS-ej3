@@ -1,3 +1,6 @@
+// Implementación de inicialización, bucle y limpieza del juego
+// carga recursos y arranca el mundo
+
 #include "Game.h"
 #include "spdlog/spdlog.h"
 #include <memory>

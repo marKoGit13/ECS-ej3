@@ -1,3 +1,6 @@
+// Componente que contiene datos de colisión de la entidad
+// usado por el sistema de colisiones
+
 #pragma once
 #include "Component.h"
 

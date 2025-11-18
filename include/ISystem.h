@@ -1,3 +1,6 @@
+// Interfaz base para sistemas (update y lifecycle)
+// define la forma en que los sistemas interactúan con el mundo
+
 #pragma once 
 
 class World; //un forward declaration para evitar inlcudes circulares

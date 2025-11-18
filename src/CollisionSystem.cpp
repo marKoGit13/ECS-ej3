@@ -1,3 +1,6 @@
+// Implementación de la lógica de detección y resolución
+// busca pares colisionantes y ejecuta respuestas
+
 #include "CollisionSystem.h"
 #include "World.h"
 #include "TransformComponent.h"
