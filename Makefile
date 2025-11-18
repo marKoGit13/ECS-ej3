@@ -1,6 +1,3 @@
-# Makefile para Ejercicio Individual 3 (refactor)
-# Usa variables y reglas patrón. Diseñado para ejecutarse desde Git Bash / MSYS (cp, rm, mkdir -p).
-
 # --- Variables ---
 CXX := g++
 INCLUDES := -I./include \
@@ -14,7 +11,7 @@ INCLUDES := -I./include \
 			-I./external/SDL2_ttf/include/SDL2
 CXXFLAGS := -std=gnu++17 -Wall -mconsole -DSPDLOG_WIN_NO_FILE_FLUSH -DGLM_ENABLE_EXPERIMENTAL $(INCLUDES)
 LDFLAGS := -L./lib -L./external/SDL2/lib -L./external/SDL2_image/lib -L./external/SDL2_ttf/lib
-# Incluye tu libspdlog.a en ./lib (libspdlog.a)
+
 LIBS := -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lspdlog \
         -lwinmm -limm32 -lversion -lole32 -loleaut32 -lsetupapi -lshell32 -luser32 -lgdi32 -luuid
 
@@ -49,7 +46,7 @@ build/%.o: src/%.cpp | $(BUILD_DIR)
 	@echo "Compilando $< -> $@"
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
-# Copia de DLLs (asume Git Bash/MSYS)
+# Copia de DLLs 
 copy_dlls: | $(BIN_DIR)
 	@echo "Copiando DLLs necesarias a $(BIN_DIR)/"
 	cp -n external/SDL2/bin/SDL2.dll $(BIN_DIR)/ || true
