@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/external/spdlog/include",
+                "${workspaceFolder}/external/GLM/include",
+                "${workspaceFolder}/external/SDL2/include",
+                "${workspaceFolder}/external/SDL2/include/SDL2",
+                "${workspaceFolder}/external/SDL2_image/include",
+                "${workspaceFolder}/external/SDL2_image/include/SDL2",
+                "${workspaceFolder}/external/SDL2_ttf/include",
+                "${workspaceFolder}/external/SDL2_ttf/include/SDL2",
+                "${workspaceFolder}/external/spdlog/src"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "DSPDLOG_WIN_NO_FILE_FLUSH",
+                "GLM_ENABLE_EXPERIMENTAL"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/include",
+                    "${workspaceFolder}/src",
+                    "${workspaceFolder}/external/GLM/include",
+                    "${workspaceFolder}/external/spdlog/include",
+                    "${workspaceFolder}/external/spdlog/src",
+                    "${workspaceFolder}/external/SDL2/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "compilerPath": "C:\\Users\\USUARIO\\OneDrive\\Escritorio\\VSCode-v3\\w64devkit\\bin\\gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
